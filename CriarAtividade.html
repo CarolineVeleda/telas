@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
-    <title>Criar Turma</title>
+    <title>Criar Atividade</title>
 </head>
 
 <body>
@@ -36,9 +36,9 @@
 
     <br>
     <br>
-    <h1 class="centro">Criar Turma</h1>
+    <h1 class="centro">Criar uma Atividade</h1>
     <br>
-    <h3 class="centro">Crie turmas e exerça funções no Virtual Class</h3>
+    <h3 class="centro">Crie atividades para seus alunos</h3>
     <br>
     <br>
 
@@ -52,30 +52,51 @@
         
                 <div class="form-group">
                     <div class="   col-md-6 offset-md-3">
-                        <label >Nome da Turma:</label>
-                        <input type="text" name="nomeTurma" class="form-control " placeholder="Digite o nome da sua turma">    
+                        <label >Título:</label>
+                        <input type="text" name="nomeAtividade" class="form-control " placeholder="Digite o título da sua atividade">    
                     </div>
                 </div>
         
                 <div class="form-group">
                     <div class="col-md-6 offset-md-3">
-                        <label> Ano: </label>  
-                        <input type="number" name="ano" class="form-control" placeholder="ano">
+                        <label> Descrição: </label> 
+                        <textarea class="form-control" name="" id="" cols="10" rows="5">
+                         </textarea> 
                     </div>
                 </div>  
-                 
+        
 
                 <div class="form-group">
                         <div class="col-md-6 offset-md-3">
-                            <label> Alunos: </label>  
-                            <input type="text" name="aluno" class="form-control" placeholder="aluno">
-                            <input type="button" value="Adicionar Aluno" class="btn btn-outline-secondary" name="">
+                            <label> Peso: </label>  
+                            <input type="number" name="peso" class="form-control" placeholder="peso">
                         </div>
-                </div>  
+                 </div>
+
+                 <div class="form-group">
+                        <div class="col-md-6 offset-md-3">
+                            <label> Quais turmas podem fazer esta atividade? </label>  
+                            <select class="custom-select" id="inputGroupSelect01">
+                                    <option selected>Ver</option>
+                                    <option value="1">Turma X</option>
+                                    <option value="2">Turma Y</option>
+                            </select>
+                        </div>
+                 </div>
+
+                 
+                <div class="form-group">
+                        <div class="col-md-6 offset-md-3">
+                            <label> Data de Entrega: </label>  
+                            <input type="date" name="dataEntrega" class="form-control" placeholder="Data de Entrega">
+                        </div>
+                    </div> 
+                 
+                 
         
                 <div class="form-group">
                     <div class="col-md-6 offset-md-3">
-                        <input type="submit" value="Criar Turma!" class="btn btn-primary" name="">
+                        <input type="submit" value="Criar Atividade!" class="btn btn-primary" name="">
                 </div>
                 </div>
             </form> 

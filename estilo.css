@@ -8,10 +8,15 @@
     text-align: center;
 }
 
-#display{
+#display,.display{
     display: block;
 }
 
 #align{
     text-align: center;
+}
+
+.dois{
+    text-align: center;
+    display: block;
 }
