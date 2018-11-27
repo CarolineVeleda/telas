@@ -1,0 +1,17 @@
+.centro{
+    text-align: center;
+    
+}
+
+#btcentro,.centro2{
+    display: block;
+    text-align: center;
+}
+
+#display{
+    display: block;
+}
+
+#align{
+    text-align: center;
+}
